@@ -86,3 +86,5 @@ function restartIframe() {
 		}
 	}, {extends: 'iframe'})
 }
+
+restartIframe();
