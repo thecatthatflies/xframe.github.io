@@ -84,5 +84,5 @@ function restartIframe() {
 				return this.fetchProxy(url, options, i + 1)
 			})
 		}
-	}, {extends: 'iframe'})
+	}, {extends: 'iframe'});
 }
