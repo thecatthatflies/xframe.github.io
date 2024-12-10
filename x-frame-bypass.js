@@ -1,4 +1,4 @@
-
+function restartIframe() {
 	customElements.define('x-frame-bypass', class extends HTMLIFrameElement {
 		static get observedAttributes() {
 			return ['src']
@@ -85,4 +85,4 @@
 			})
 		}
 	}, {extends: 'iframe'})
-
+}
